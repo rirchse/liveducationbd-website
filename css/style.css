@@ -660,20 +660,20 @@
 }
 
 .emergency-box:hover {
-    transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .emergency-box img {
-    width: 60px; /* Smaller image size */
-    height: 60px;
-    margin-bottom: 10px;
-
+  width: 60px; /* Smaller image size */
+  height: 60px;
+  margin-bottom: 10px;
+  border-radius: 30px;
 }
 
 .emergency-box p {
-    color: #000;
-    font-size: 14px;
-    margin: 5px 0px 5px 0px;
+  color: #000;
+  font-size: 14px;
+  margin: 5px 0px 5px 0px;
 }
 
 /* For tablets and larger devices */

@@ -215,11 +215,12 @@ img {
 }
 
 #Header .search_button_area .input-group i {
-    color: rgb(137 24 26);
+    /* color: rgb(137 24 26); */
     background-color: rgb(137 24 26 / 10%);
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 25px;
-    font-size: 20px;
+    /* font-size: 20px; */
+    margin-top: 5px;
 }
 
 #Header .search_button_area .input-group button {
@@ -233,7 +234,7 @@ img {
 }
 
 #Header .bg-body-tertiary {
-    background-color: white;
+    background-color: white !important;
     position: fixed;
     width: 100%;
     z-index: 9999;
@@ -244,9 +245,9 @@ img {
 }
 
 #Header .login-button .btn_warning {
-    background-color: #033B3F;
+    background-color: #1CAB55;
     color: white;
-    padding: 12px 25px;
+    /* padding: 12px 25px; */
 }
 
 #Header .login-button a img {
@@ -256,9 +257,9 @@ img {
 
 #Header .navbar-collapse ul li a {
     color: #141414;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 20px;
+    font-size: 14px;
+    /* font-weight: 600; */
+    /* padding: 20px; */
 }
 
 #Header .navbar-collapse .dropdown-menu li a {
@@ -272,11 +273,14 @@ img {
     margin-top: 0;
 }
 
+.nav-item{margin-top: 5px;}
+
 #Header .navbar-collapse ul li a:hover {
     color: black;
-    background-color: #B0D5D9;
-    border-bottom: 1.8px solid #033B3F;
-    border-radius: 10px;
+    /* background-color: #B0D5D9; */
+    border-bottom: 1px solid;
+    border-color: black;
+    /* border-radius: 10px; */
 }
 
 .moblie-icon {
@@ -2024,8 +2028,10 @@ body {
 /* ----------------- Home Category Section End ---------------------------- */
 
 /* ----------------- Our Service Section Start ---------------------------- */
-
-#Our_service .title-area h2 {
+.title-color-white{
+  color:white;
+}
+#Our_service .title-area h2, #Student_review .title-area h2 {
     color: white;
 }
 
@@ -2047,8 +2053,8 @@ body {
     #home-services-area-two,
     #home-services-area-three,
     #home-services-area-four {
-        padding-right: calc(var(--bs-gutter-x)* .1); !important;
-        padding-left: calc(var(--bs-gutter-x)* .1); !important;
+        padding-right: calc(var(--bs-gutter-x)* .1) !important;
+        padding-left: calc(var(--bs-gutter-x)* .1) !important;
     }
 }
 
@@ -5194,10 +5200,10 @@ body {
 }
 
 #Header .navbar-collapse ul li .active {
-    color: white;
-    background-color: #033B3F;
+    /* color: white; */
+    /* background-color: #033B3F; */
     border-bottom: 1.8px solid #033B3F;
-    border-radius: 10px;
+    /* border-radius: 10px; */
 }
 
 .home-course-category-area a {
