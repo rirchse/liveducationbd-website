@@ -2178,7 +2178,7 @@ body {
 #Home_Our_courses .home-category-area .my-course-category:hover {
 
     color: black;
-    background-color: #B0D5D9;
+    /* background-color: #B0D5D9; */
     transition: ease-in-out 0.3s;
 }
 
@@ -2192,7 +2192,7 @@ body {
 }
 
 #Home_Our_courses .home-course-category-area .my-course-category:hover {
-    border-color: #B0D5D9;
+    /* border-color: #B0D5D9; */
 }
 
 #Home_Our_courses .home-course-category-area .my-course-category .my-course-category-icon i {
