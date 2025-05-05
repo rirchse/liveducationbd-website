@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+  <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-    <title>LiveEuducationBD - The First Job Study Online Platform in Bangladesh</title>
+    <title>LiveEuducationBD</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="robots" content="index" />
-    <meta name="csrf-token" content="WlWD0OcHgoiFVuFIs7j0oumKvc7rASkRL84qLvMq" />
+    <meta name="csrf-token" content="" />
     <meta property="description" content="" />
     <meta property="keywords" content="" />
     <!-- Preconnect & Preload Resources -->
-    <!-- <link rel="preconnect" href="../fonts.googleapis.com/index.html">
-    <link rel="preconnect" href="../fonts.gstatic.com/index.html" crossorigin> -->
-    <link href="assets/fonts.googleapis.com/css24d2f.css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
-    <link href="assets/fonts.googleapis.com/css26dcd.css?family=Noto+Sans+Bengali:wght@100..900&amp;display=swap" rel="stylesheet" />
+    <!-- <link href="assets/fonts.googleapis.com/css24d2f.css?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link href="assets/fonts.googleapis.com/css26dcd.css?family=Noto+Sans+Bengali:wght@100..900&amp;display=swap" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- External CSS Libraries -->
     <link rel="stylesheet" href="assets/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
@@ -25,7 +24,7 @@
     <link rel="stylesheet" href="assets/vendors/slick/slick-theme.css"/>
     <link rel="stylesheet" href="assets-old/css/owl.carousel.min.css" />
     <!-- Custom CSS (With Cache Busting) -->
-        <link rel="stylesheet" href="assets/css/style2b24.css?v=3.5.25" />
+        <link rel="stylesheet" href="assets/css/style2b24.css?v=3.6.25" />
     <link rel="stylesheet" href="assets/css/responsive2b24.css?v=3523" />
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -44,10 +43,8 @@
               <a href="#" type="button" class="btn btn_warning">Login</a>
             </div>
             <div>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
               </button>
             </div>
           </div>
@@ -72,42 +69,53 @@
               <a class="nav-link active" aria-current="page"
                 href="#">হোম</a>
             </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="freeStudyroomDropdown" role="button">
-                চলমান কোর্স সমূহ
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle "
-                href="#"
-                id="premiumStudyroomDropdown"
-                role="button">
-                আমার কোর্স সমূহ
-              </a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="examDropdown"
-                role="button">
-                আমার সিলেবাস সমূহ
+            <li class="nav-item">
+              <a class="nav-link" href="#Home_Our_courses">
+                কোর্স সমূহ
               </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">পরীক্ষা</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">অভিযোগ দিন</a>
+              <a class="nav-link" href="#">
+              সিলেবাস সমূহ
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">আমাদের সাফল্য</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">নিয়োগ বিজ্ঞপ্তি</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              More
+                আরও
               </a>
               <ul class="dropdown-menu" aria-labelledby="moreDropdown">
-                <li><a class="dropdown-item " href="#"><i class="fa-solid fa-newspaper"></i>&nbsp; ব্লগ</a></li>
-                <li><a class="dropdown-item " href="#"><i class="fa-solid fa-book"></i>&nbsp; বই</a></li>
-                <li><a class="dropdown-item " href="#"><i class="fa-solid fa-bell"></i>&nbsp; নোটিশ</a></li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">সেবা সমূহ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">শিক্ষার্থীদের মতামত</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">অভিযোগ দিন</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">বুক স্টোরেজ</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">শিক্ষক মণ্ডলী</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                    আমার কোর্স সমূহ
+                  </a>
+                </li>
               </ul>
             </li>
-            <!-- <form class="search_button_area mt-lg-1 desk-top-search" action="https://LiveEuducationBD.com/search-content-home"
+            <form class="search_button_area mt-lg-1 desk-top-search" action="#"
               method="POST">
               <input type="hidden" name="_token" value="WlWD0OcHgoiFVuFIs7j0oumKvc7rASkRL84qLvMq" autocomplete="off">                        
               <div class="input-group">
@@ -119,7 +127,7 @@
                 <input type="text" class="form-control border-0 shadow-none" placeholder="Search courses"
                   name="search_content" value="" />
               </div>
-            </form> -->
+            </form>
           </ul>
           <div class="desk-top-login">
             <div class="nav-item login-button">
@@ -127,13 +135,9 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> <!-- /.container -->
     </nav>
-  </header>
-
-    <!-- Navigation Bar for Small/Mobile Devices -->
-
-    <nav class="navbar navbar-expand navbar-light d-block d-lg-none" style="background-color: #E6F1F3;">
+    <nav class="navbar navbar-expand navbar-light d-block" style="background-color: #E6F1F3;">
       <div class="container">
         <div class="navbar-collapse">
           <!-- Center-align the navigation items -->
@@ -195,80 +199,47 @@
         </div>
       </div>
     </nav>
+  </header>
+
+    <!-- Navigation Bar for Small/Mobile Devices -->
+
+    
     <!-- Preloader -->
-    <!-- <section class="row" id="Home_add">
-      <div class="col-lg-2" style="padding: calc(var(--bs-gutter-x)* .0)!important;">
-        <div class="home-1st-add-image">
-          <a href="https://play.google.com/store/apps/details?id=com.nextive.LiveEuducationBD2021"><img src="assets/images/home-page/home-page-bn-1-v5.webp" alt="Home 1st Add Banner" srcset="" loading="lazy"></a>
+    <section id="Home_add">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2" style="padding: calc(var(--bs-gutter-x)* .0)!important;">
+            <div class="home-1st-add-image">
+              <a href="#"><img src="img/ad1.jpg" alt="" srcset="" loading="lazy"></a>
+            </div>
+          </div>
+          <div class="col-lg-7 col-md-12" style="
+            padding-left: calc(var(--bs-gutter-x) * 0.08) !important;
+            padding-right: calc(var(--bs-gutter-x) * 0.08) !important;
+            padding-top: 0 !important;
+            padding-bottom: 0 !important;">
+            <div class="home-2nd-add-image">
+              <a href="#"><img src="img/ad2.jpg" alt="" srcset="" loading="lazy"></a>
+            </div>
+          </div>
+          <div class="col-lg-3" style="padding: 0 !important;">
+            <div class="home-3rd-add-image dropdown">
+              <a href="#" class="dropdown-toggle" id="home3rdAddDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="img/ad3.jpg" alt="" loading="lazy" srcset="">
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-lg-7 col-md-12" style="
-        padding-left: calc(var(--bs-gutter-x) * 0.08) !important;
-        padding-right: calc(var(--bs-gutter-x) * 0.08) !important;
-        padding-top: 0 !important;
-        padding-bottom: 0 !important;">
-        <div class="home-2nd-add-image">
-          <a href="instructor.html"><img src="assets/images/home-page/home-page-bn-2-v5.webp" alt="Home 2nd Add Banner" srcset="" loading="lazy"></a>
-        </div>
-      </div>
-      <div class="col-lg-3" style="padding: 0 !important;">
-        <div class="home-3rd-add-image dropdown">
-          <a href="free-course.html" class="dropdown-toggle" id="home3rdAddDropdown" data-bs-toggle="dropdown" aria-expanded="false">
-          <img src="assets/images/home-page/home-page-bn-3-v5.webp" alt="Home 3rd Add Banner" loading="lazy" srcset="">
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="home3rdAddDropdown" style="max-height: 400px; overflow-y: auto;">
-            <li>
-              <a class="dropdown-item" href="login.html">
-              <i class="fa-solid fa-arrows-turn-right"></i>&nbsp; BCS
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="login.html">
-              <i class="fa-solid fa-arrows-turn-right"></i>&nbsp; PRIMARY
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="login.html">
-              <i class="fa-solid fa-arrows-turn-right"></i>&nbsp; BANK
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="login.html">
-              <i class="fa-solid fa-arrows-turn-right"></i>&nbsp; 11-20th Grade
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="login.html">
-              <i class="fa-solid fa-arrows-turn-right"></i>&nbsp; 9th-10th Grade
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="login.html">
-              <i class="fa-solid fa-arrows-turn-right"></i>&nbsp; IT COURSES
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="login.html">
-              <i class="fa-solid fa-arrows-turn-right"></i>&nbsp; NTRCA
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" href="free-exam/RECORDED-COURSES.html">
-              <i class="fa-solid fa-arrows-turn-right"></i>&nbsp; RECORDED COURSES
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section> -->
+    </section>
 
     <main>
-      <section id="Home_main_banner" class="background-res background-ats py-3 py-lg-5 d-none d-lg-block" style="background-image: url('img/Background_Noise.jpg')">
-        <div class="container-fluid">
+      <section id="Home_main_banner" class="background-res background-ats py-3 py-lg-5 d-lg-block" style="background-image: url('img/Background_Noise.jpg')">
+        <div class="container">
           <div class="row gy-4">
-            <div class="col-lg-3 col-md-12">
-            </div>
-            <div class="col-lg-9 col-md-12">
+            <!-- <div class="col-lg-3 col-md-12">
+            </div> -->
+            <div class="col-lg-12 col-md-12">
                 <div class="row">
                   <div class="col-md-12 col-lg-8">
                     <div class="home-1st-slide">
@@ -725,79 +696,6 @@
         </div>
       </section>
 
-      <section id="Home_main_banner" class="background-res background-ats py-3 py-lg-5 d-lg-none"
-      style="background-image: url('img/background-bg.jpg')">
-      <div class="course-container d-lg-none">
-        <!-- <div class="course-title">Study Room</div>
-        <div class="d-flex justify-content-center flex-wrap">
-          <div class="course-box" style="flex: 1 1 100%;">
-            <a href="daily-contents.html">
-              <img src="../cdn.10minuteschool.com/images/9-10_1732778140427.jpg" alt="" loading="lazy" srcset="">
-              <p style="color: white;">Daily Updates</p>
-            </a>
-          </div>
-        </div>
-        <div class="course-section d-flex justify-content-around flex-wrap" style="gap: 5px;">
-          <div class="course-box" style="flex: 1 1 auto;">
-            <a href="free-course.html">
-              <img src="../cdn.10minuteschool.com/images/hscbag_1732778180651.jpg" alt="" loading="lazy" srcset="">
-              <p style="color: white;">Free StudyRoom</p>
-            </a>
-          </div>
-          <div class="course-box" style="flex: 1 1 auto;">
-            <a href="course.html">
-              <img src="../cdn.10minuteschool.com/images/ssc_1732778162589.jpg" alt="" loading="lazy" srcset="">
-              <p style="color: white;">Premium Course</p>
-            </a>
-          </div>
-        </div> -->
-
-        <div class="course-section col-md-12 col-lg-4">
-          <div class="home-video-feature-area">
-            <div class="row">
-              <div class="col-4">
-                <div class="home-feature-video">
-                  <div class="ratio ratio-1x1"
-                    style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                    <img class="img img-thumbnail-custom lazyload" src="assets/images/home-page/recent-job-solution-v1.webp" alt="Recent Job Solution Banner" style="position: absolute; top: 12%; left: 0; width: 100%; height: 76%;" srcset="">
-                    <!-- Transparent overlay to trigger the click event -->
-                    <div onclick="showVideoModal('https://www.youtube.com/embed/tsJS_LcbjDs?autoplay=1')"
-                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="home-feature-video">
-                  <div class="ratio ratio-1x1"
-                    style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                    <img class="img img-thumbnail-custom lazyload" src="assets/images/home-page/teacher-trip-advice-v1.webp" alt="Teachers Tips & Advice Banner" style="position: absolute; top: 12%; left: 0; width: 100%; height: 76%;" srcset="">
-                    <!-- Transparent overlay to trigger the click event -->
-                    <div onclick="showVideoModal('https://www.youtube.com/embed/jQPOGHSu96A?autoplay=1')"
-                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="col-4">
-                <div class="home-feature-video">
-                  <div class="ratio ratio-1x1"
-                    style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                    <img class="img img-thumbnail-custom lazyload" src="assets/images/home-page/app-website-use-rules-v1.webp" alt="APP Website Uses Rules Banner"
-                      style="position: absolute; top: 12%; left: 0; width: 100%; height: 76%;" srcset="">
-                    <!-- Transparent overlay to trigger the click event -->
-                    <div onclick="showVideoModal('https://www.youtube.com/embed/GdxZFFAFnLg?autoplay=1')"
-                      style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section id="Home_category" class="background-res background-ats py-5" style="background: #eef">
         <div class="container">
           <div class="row mb-5">
@@ -844,6 +742,69 @@
         </div>
     </section>
 
+    <section id="Our_service" class="our-service background-res background-ats py-5"
+    style="background-image: url('img/background-bg.jpg')">
+    <div class="container py-3">
+      <div class="row">
+        <div class="title-area text-center">
+          <h2 class="fw-bold mb-4 custom-section-title">Exam Section<br></h2>
+        </div>
+      </div>
+      <div class="home-services-area">
+        <div class="row" style="--bs-gutter-x: 0.3rem !important;">
+          <div class="col-md-3 col-6 mb-1 dropdown bcs-jobs" id="home-services-area-one">
+            <a href="#">
+              <div class="my-home-service premium-course-box">
+                <div class="my-home-service-icon">
+                  <img src="img/it-books.png" alt="" loading="lazy">
+                </div>
+                <div class="my-home-service-content">
+                  <h3>Free  Exam</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-6 mb-1" id="home-services-area-two" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
+            <a href="#">
+              <div class="my-home-service premium-course-box" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="...">
+                <div class="my-home-service-icon">
+                  <img src="img/it-books.png" alt="" loading="lazy">
+                </div>
+                <div class="my-home-service-content">
+                  <h3>Premium Exam</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-6 mb-1" id="home-services-area-three">
+            <a href="#" target="_blank">
+              <div class="my-home-service premium-course-box" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="...">
+                <div class="my-home-service-icon">
+                  <img src="img/it-books.png" alt="" loading="lazy">
+                </div>
+                <div class="my-home-service-content">
+                  <h3>Results</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-6 mb-1" id="home-services-area-four">
+            <a href="#" target="_blank">
+              <div class="my-home-service premium-course-box" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="...">
+                <div class="my-home-service-icon">
+                  <img src="img/it-books.png" alt="" loading="lazy">
+                </div>
+                <div class="my-home-service-content">
+                  <h3>Exam Routine</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
     <section id="Home_Our_courses">
       <div class="container">
         <div class="row mb-5">
@@ -852,119 +813,116 @@
             <!-- <h5 class="text-muted mb-3">(যে সব কোর্সে ভর্তি চলছে...)</h5> -->
           </div>
         </div>
+
         <!-- <div class="home-category-area mt-5">
-            <div class="row justify-content-center">
-              <div class="home-category-item" id="category-item-1">
-                <a href="category/BCS.html">
-                  <div class="my-course-category">
-                      <div class="my-course-category-icon">
-                          <i class="fa-solid fa-book"></i>
-                      </div>
-                      <div class="my-course-category-content">
-                          <h3>BCS </h3>
-                          <h3> 2 Courses</h3>
-                      </div>
+          <div class="row justify-content-center">
+            <div class="home-category-item" id="category-item-1">
+              <a href="category/BCS.html">
+                <div class="my-course-category">
+                  <div class="my-course-category-icon">
+                    <i class="fa-solid fa-book"></i>
                   </div>
-                </a>
-              </div>
-              <div class="home-category-item" id="category-item-50">
-                <a href="category/PRIMARY.html">
-                  <div class="my-course-category">
-                      <div class="my-course-category-icon">
-                          <i class="fa-solid fa-book"></i>
-                      </div>
-                      <div class="my-course-category-content">
-                          <h3>PRIMARY </h3>
-                          <h3> 1 Courses</h3>
-                      </div>
+                  <div class="my-course-category-content">
+                    <h3>BCS </h3>
+                    <h3> 2 Courses</h3>
                   </div>
+                </div>
+              </a>
+            </div>
+            <div class="home-category-item" id="category-item-50">
+              <a href="category/PRIMARY.html">
+                <div class="my-course-category">
+                  <div class="my-course-category-icon">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div class="my-course-category-content">
+                    <h3>PRIMARY </h3>
+                    <h3> 1 Courses</h3>
+                  </div>
+                </div>
               </a>
             </div>
             <div class="home-category-item" id="category-item-163">
               <a href="category/NTRCA.html">
                 <div class="my-course-category">
-                    <div class="my-course-category-icon">
-                        <i class="fa-solid fa-book"></i>
-                    </div>
-                    <div class="my-course-category-content">
-                        <h3>NTRCA </h3>
-                        <h3> 1 Courses</h3>
-                    </div>
-                </div>
-            </a>
-          </div>
-          <div class="home-category-item" id="category-item-86">
-            <a href="category/11-20th-Grade.html">
-              <div class="my-course-category">
                   <div class="my-course-category-icon">
-                      <i class="fa-solid fa-book"></i>
+                    <i class="fa-solid fa-book"></i>
                   </div>
                   <div class="my-course-category-content">
-                      <h3>11-20th Grade </h3>
-                      <h3> 3 Courses</h3>
+                    <h3>NTRCA </h3>
+                    <h3> 1 Courses</h3>
                   </div>
-              </div>
-          </a>
-                                                    </div>
-                                            <div class="home-category-item" id="category-item-52">
-
-                                                            <a href="category/BANK.html">
-                                <div class="my-course-category">
-                                    <div class="my-course-category-icon">
-                                        <i class="fa-solid fa-book"></i>
-                                    </div>
-                                    <div class="my-course-category-content">
-                                        <h3>BANK </h3>
-                                        <h3> 2 Courses</h3>
-                                    </div>
-                                </div>
-                            </a>
-                                                    </div>
-                                            <div class="home-category-item" id="category-item-91">
-
-                                                            <a href="category/9th-10th-Grade.html">
-                                <div class="my-course-category">
-                                    <div class="my-course-category-icon">
-                                        <i class="fa-solid fa-book"></i>
-                                    </div>
-                                    <div class="my-course-category-content">
-                                        <h3>9th-10th Grade </h3>
-                                        <h3> 3 Courses</h3>
-                                    </div>
-                                </div>
-                            </a>
-                                                    </div>
-                                            <div class="home-category-item" id="category-item-185">
-
-                                                            <a href="category/RECORDED-COURSES.html">
-                                <div class="my-course-category">
-                                    <div class="my-course-category-icon">
-                                        <i class="fa-solid fa-book"></i>
-                                    </div>
-                                    <div class="my-course-category-content">
-                                        <h3>RECORDED COURSES </h3>
-                                        <h3> 5 Courses</h3>
-                                    </div>
-                                </div>
-                            </a>
-                                                    </div>
-                                            <div class="home-category-item" id="category-item-96">
-
-                                                            <a href="category/IT-COURSES.html">
-                                <div class="my-course-category">
-                                    <div class="my-course-category-icon">
-                                        <i class="fa-solid fa-book"></i>
-                                    </div>
-                                    <div class="my-course-category-content">
-                                        <h3>IT COURSES </h3>
-                                        <h3> 11 Courses</h3>
-                                    </div>
-                                </div>
-                            </a>
-                                                    </div>
-                
+                </div>
+              </a>
             </div>
-      </div> -->
+            <div class="home-category-item" id="category-item-86">
+              <a href="category/11-20th-Grade.html">
+                <div class="my-course-category">
+                  <div class="my-course-category-icon">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div class="my-course-category-content">
+                    <h3>11-20th Grade </h3>
+                    <h3> 3 Courses</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="home-category-item" id="category-item-52">
+              <a href="category/BANK.html">
+                <div class="my-course-category">
+                  <div class="my-course-category-icon">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div class="my-course-category-content">
+                    <h3>BANK </h3>
+                    <h3> 2 Courses</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="home-category-item" id="category-item-91">
+              <a href="category/9th-10th-Grade.html">
+                <div class="my-course-category">
+                  <div class="my-course-category-icon">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div class="my-course-category-content">
+                    <h3>9th-10th Grade </h3>
+                    <h3> 3 Courses</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="home-category-item" id="category-item-185">
+              <a href="category/RECORDED-COURSES.html">
+                <div class="my-course-category">
+                  <div class="my-course-category-icon">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div class="my-course-category-content">
+                    <h3>RECORDED COURSES </h3>
+                    <h3> 5 Courses</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div class="home-category-item" id="category-item-96">
+              <a href="category/IT-COURSES.html">
+                <div class="my-course-category">
+                  <div class="my-course-category-icon">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <div class="my-course-category-content">
+                    <h3>IT COURSES </h3>
+                    <h3> 11 Courses</h3>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div> -->
+
         <div class="all-courses-area">
           <div class="row g-2 g-md-3 g-lg-4">
 
@@ -1283,9 +1241,9 @@
       </div>
     </section>
 
-  <section id="Our_service" class="background-res background-ats py-5"
+  <section id="Our_service" class="our-service background-res background-ats py-5"
     style="background-image: url('img/Background_Noise.jpg')">
-    <div class="container-fluid py-3">
+    <div class="container py-3">
       <div class="row">
         <div class="title-area text-center">
           <h2 class="fw-bold mb-4 custom-section-title">Premium Book Storage <br></h2>
@@ -1304,48 +1262,6 @@
                 </div>
               </div>
             </a>
-            <!-- <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="category/BCS.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; BCS
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/PRIMARY.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; PRIMARY
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/NTRCA.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; NTRCA
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/11-20th-Grade.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; 11-20th Grade
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/BANK.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; BANK
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/9th-10th-Grade.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; 9th-10th Grade
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/RECORDED-COURSES.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; RECORDED COURSES
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/IT-COURSES.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; IT COURSES
-                </a>
-              </li>
-            </ul> -->
           </div>
           <div class="col-md-3 col-6 mb-1" id="home-services-area-two" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
             <a href="#">
@@ -1424,7 +1340,7 @@
     </div>
   </section>
   <!-- নিয়োগ বিজ্ঞপ্তি -->
-  <section id="Home_category" class="background-res background-ats py-5" style="background: #fff">
+  <section id="Home_category" class="our-service background-res background-ats py-5" style="background: #fff">
     <div class="container">
       <div class="row mb-5">
         <div class="title-area text-center">
@@ -1434,34 +1350,56 @@
         </div>
       </div>
 
-      <div class="our-story-video-content-area py-4">
-        <div class="row">
-          <div class="col-md-3"></div>
-          <div class="col-md-6">
-            <div class="our-story-content-area" style="max-height: 600px; overflow-y: auto;">
-              <a href="#">
-                <h3>📝 ৯ম & অন্যান্য জব সার্কুলার </h3>
-              </a>
-                <p> বিস্তারিতঃ শিক্ষার্থীরা অনলাইনে পরীক্ষায় অংশগ্রহণ করতে পারে এবং পরীক্ষার ফলাফলও খুব দ্রুত অনলাইনে প্রকাশ করা হয়। এতে করে শিক্ষার্থীরা তাৎক্ষণিকভাবে নিজেদের উন্নতির অবস্থা জানতে পারে। </p>
-              <hr>
-
-              <a href="#">
-                <h3>📝 ডিপ্লোমা জব সার্কুলার</h3>
-              </a>
-              <p> বিস্তারিতঃ শিক্ষার্থীরা অনলাইনে পরীক্ষায় অংশগ্রহণ করতে পারে এবং পরীক্ষার ফলাফলও খুব দ্রুত অনলাইনে প্রকাশ করা হয়। এতে করে শিক্ষার্থীরা তাৎক্ষণিকভাবে নিজেদের উন্নতির অবস্থা জানতে পারে।</p>
-              <hr>
-              <a href="#">
-                <h3>📝 ১১ - ২০ তম গ্রেডের জব সার্কুলার </h3>
-              </a>
-              <p> বিস্তারিতঃ শিক্ষার্থীরা অনলাইনে পরীক্ষায় অংশগ্রহণ করতে পারে এবং পরীক্ষার ফলাফলও খুব দ্রুত অনলাইনে প্রকাশ করা হয়। এতে করে শিক্ষার্থীরা তাৎক্ষণিকভাবে নিজেদের উন্নতির অবস্থা জানতে পারে।</p>
-              <hr>
-              <a href="#">
-                <h3>📝 বে-সরকারি জব সার্কুলার</h3>
-              </a>
-              <p> বিস্তারিতঃ শিক্ষার্থীরা অনলাইনে পরীক্ষায় অংশগ্রহণ করতে পারে এবং পরীক্ষার ফলাফলও খুব দ্রুত অনলাইনে প্রকাশ করা হয়। এতে করে শিক্ষার্থীরা তাৎক্ষণিকভাবে নিজেদের উন্নতির অবস্থা জানতে পারে।</p>
-            </div>
+      <div class="home-services-area">
+        <div class="row" style="--bs-gutter-x: 0.3rem !important;">
+          <div class="col-md-3 col-6 mb-1 dropdown bcs-jobs" id="home-services-area-one">
+            <a href="#">
+              <div class="my-home-service premium-course-box">
+                <div class="my-home-service-icon">
+                  <img src="img/pdf-logo.jpg" alt="" loading="lazy">
+                </div>
+                <div class="my-home-service-content">
+                  <h3>৯ম & অন্যান্য জব সার্কুলার</h3>
+                </div>
+              </div>
+            </a>
           </div>
-          <!-- Small devices space -->
+          <div class="col-md-3 col-6 mb-1 dropdown bcs-jobs" id="home-services-area-one">
+            <a href="#">
+              <div class="my-home-service premium-course-box">
+                <div class="my-home-service-icon">
+                  <img src="img/pdf-logo.jpg" alt="" loading="lazy">
+                </div>
+                <div class="my-home-service-content">
+                  <h3>ডিপ্লোমা জব সার্কুলার</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-6 mb-1 dropdown bcs-jobs" id="home-services-area-one">
+            <a href="#">
+              <div class="my-home-service premium-course-box">
+                <div class="my-home-service-icon">
+                  <img src="img/pdf-logo.jpg" alt="" loading="lazy">
+                </div>
+                <div class="my-home-service-content">
+                  <h3>১১ - ২০ তম গ্রেডের জব সার্কুলার</h3>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-3 col-6 mb-1 dropdown bcs-jobs" id="home-services-area-one">
+            <a href="#">
+              <div class="my-home-service premium-course-box">
+                <div class="my-home-service-icon">
+                  <img src="img/pdf-logo.jpg" alt="" loading="lazy">
+                </div>
+                <div class="my-home-service-content">
+                  <h3>বে-সরকারি জব সার্কুলার</h3>
+                </div>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
 
@@ -1552,9 +1490,9 @@
     </div>
   </section>
 
-  <section id="Our_service" class="background-res background-ats py-4"
+  <section id="Our_service" class="our-service background-res background-ats py-4"
     style="background-image: url('img/Background_Noise.png'); background-color: rgba(0, 0, 0, 0.5);">
-    <div class="container-fluid py-4">
+    <div class="container py-4">
       <div class="row">
         <div class="title-area text-center">
           <h2 class="fw-bold mb-4 custom-section-title">আমাদের সেবা সমূহ <br></h2>
@@ -1573,48 +1511,6 @@
                 </div>
               </div>
             </a>
-            <!-- <ul class="dropdown-menu">
-              <li>
-                <a class="dropdown-item" href="category/BCS.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; BCS
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/PRIMARY.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; PRIMARY
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/NTRCA.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; NTRCA
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/11-20th-Grade.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; 11-20th Grade
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/BANK.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; BANK
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/9th-10th-Grade.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; 9th-10th Grade
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/RECORDED-COURSES.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; RECORDED COURSES
-                </a>
-              </li>
-              <li>
-                <a class="dropdown-item" href="category/IT-COURSES.html">
-                <i class="fa-solid fa-hand-point-right"></i>&nbsp; IT COURSES
-                </a>
-              </li>
-            </ul> -->
           </div>
           <div class="col-md-3 col-6 mb-1" id="home-services-area-two" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">
             <a href="#">
@@ -1623,7 +1519,7 @@
                   <img src="img/it-books.png" alt="" loading="lazy">
                 </div>
                 <div class="my-home-service-content">
-                  <h3>live MCQ Exam</h3>
+                  <h3>Live MCQ Exam</h3>
                 </div>
               </div>
             </a>
@@ -1683,7 +1579,7 @@
                   <img src="img/it-books.png" alt="" loading="lazy">
                 </div>
                 <div class="my-home-service-content">
-                  <h3>live Chat</h3>
+                  <h3>Live Chat</h3>
                 </div>
               </div>
             </a>
@@ -1958,16 +1854,16 @@
         
     <!-- Bootstrap Modal Structure -->
     <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="embed-responsive embed-responsive-16by9">
-                      <iframe id="modalVideo" class="embed-responsive-item" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                    </div>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute;"></button>
-                </div>
+      <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="embed-responsive embed-responsive-16by9">
+              <iframe id="modalVideo" class="embed-responsive-item" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="position: absolute;"></button>
+          </div>
         </div>
+      </div>
     </div>
 
     <!-- Premium StudyRoom Bootstrap 5 Modal -->
@@ -1991,154 +1887,132 @@
       </div>
     </div>
 
-
-    <!-- <section id="App_store" class="background-res background-ats py-5"
-    style="background-image: url('img/background-bg.jpg')">
+  <footer id="Footer">
     <div class="container">
-        <div class="row align-items-center">
-          <div class="row">
-            <div class="title-area text-center">
-                <h2 class="fw-bold mb-4 custom-sect/ion-title">আমাদের শিক্ষক মণ্ডলী</h2>
-            </div>
-          </div> -->
-            <!-- teachers -->
-        <!-- </div>
-        <div class="our-story-event-area py-5">
-          <div class="row g-3 g-lg-4"> -->
-            <!--  -->
-          <!-- </div>
-        </div>
-    </div>
-</section> -->
-
-<footer id="Footer">
-  <div class="container">
-    <div class="row g-4">
-        <div class="col-sm-12 col-md-4">
-            <div class="footer-logo-content mb-lg-5">
-                <div class="footer-logo">
-                    <div class="footer-logo-image">
-                        <img src="img/logo.png" alt="" srcset="">
-                    </div>
-                </div>
-                <div class="footer-logo-text">
-                    <p>For countless students across the country,<br>
-                      LiveEducationBD is the leading online education platform — a symbol of excellence and inspiration.
-                      Begin your journey with confidence and experience dedicated support at every step.</p>
-                </div>
-                <div class="footer-social-media-area">
-                    <div class="social-media-icon">
-                        <div class="facebook-icon">
-                            <a href="#" target="_blank">
-                              <i class="fa-brands fa-facebook"></i>
-                            </a>
-                        </div>
-                        <div class="youtube-icon">
-                            </a><a href="#" target="_blank"><i
-                                    class="fa-brands fa-youtube"></i></a>
-                        </div>
-                        <div class="instagram-icon">
-                            <a href="#" target="_blank"><i
-                                    class="fa-brands fa-instagram"></i></a>
-                        </div>
-                        <div class="linkedin-icon">
-                            </a><a href="#" target="_blank"><i
-                                    class="fa-brands fa-linkedin"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-8">
-            <div class="footer-others-div">
-                <div class="row g-4">
-                    <div class="col-6 col-md-4">
-                        <div class="about-us">
-                            <h3>About Us</h3>
+      <div class="row g-4">
+          <div class="col-sm-12 col-md-4">
+              <div class="footer-logo-content mb-lg-5">
+                  <div class="footer-logo">
+                      <div class="footer-logo-image">
+                          <img src="img/logo.png" alt="" srcset="">
+                      </div>
+                  </div>
+                  <div class="footer-logo-text">
+                      <p>For countless students across the country,<br>
+                        LiveEducationBD is the leading online education platform — a symbol of excellence and inspiration.
+                        Begin your journey with confidence and experience dedicated support at every step.</p>
+                  </div>
+                  <div class="footer-social-media-area">
+                      <div class="social-media-icon">
+                          <div class="facebook-icon">
+                              <a href="#" target="_blank">
+                                <i class="fa-brands fa-facebook"></i>
+                              </a>
+                          </div>
+                          <div class="youtube-icon">
+                              </a><a href="#" target="_blank"><i
+                                      class="fa-brands fa-youtube"></i></a>
+                          </div>
+                          <div class="instagram-icon">
+                              <a href="#" target="_blank"><i
+                                      class="fa-brands fa-instagram"></i></a>
+                          </div>
+                          <div class="linkedin-icon">
+                              </a><a href="#" target="_blank"><i
+                                      class="fa-brands fa-linkedin"></i></a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-8">
+              <div class="footer-others-div">
+                  <div class="row g-4">
+                      <div class="col-6 col-md-4">
+                          <div class="about-us">
+                              <h3>About Us</h3>
+                              <ul>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Instructor</a></li>
+                                <li><a href="#">Refund Policy</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-6 col-md-4">
+                          <div class="resources">
+                            <h3>Resources</h3>
                             <ul>
-                              <li><a href="#">About Us</a></li>
-                              <li><a href="#">Instructor</a></li>
-                              <li><a href="#">Refund Policy</a></li>
-                              <li><a href="#">Contact Us</a></li>
+                              <li><a href="#">Courses</a></li>
+                              <li><a href="#">Our Blog</a></li>
+                              <li><a href="#">Terms & Conditions</a></li>
+                              <li><a href="#">Privacy Policy</a></li>
                             </ul>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <div class="resources">
-                          <h3>Resources</h3>
-                          <ul>
-                            <li><a href="#">Courses</a></li>
-                            <li><a href="#">Our Blog</a></li>
-                            <li><a href="#">Terms & Conditions</a></li>
-                            <li><a href="#">Privacy Policy</a></li>
-                          </ul>
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-md-4">
-                        <div class="official-info">
-                            <h3>Official Info</h3>
-                            <ul>
-                                <li>
-                                  <i class="fa-regular fa-envelope"></i>
-                                  <a href="mailto:info@liveeuducationbd.com">info@liveeuducationbd.com</a>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-phone"></i>
-                                    <a href="tel:+01718778184">01718778184</a>
-                                </li>
-                                <li>
-                                    <i class="fa-solid fa-location-dot"></i>
-                                    <a href="#">Address: Jogendranagar, Sabgari-6450, Gurudaspur, Natore, Bangladesh<br>
-                                      Trade License No. 69141130786</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                          </div>
+                      </div>
+                      <div class="col-sm-12 col-md-4">
+                          <div class="official-info">
+                              <h3>Official Info</h3>
+                              <ul>
+                                  <li>
+                                    <i class="fa-regular fa-envelope"></i>
+                                    <a href="mailto:info@liveeuducationbd.com">info@liveeuducationbd.com</a>
+                                  </li>
+                                  <li>
+                                      <i class="fa-solid fa-phone"></i>
+                                      <a href="tel:+01718778184">01718778184</a>
+                                  </li>
+                                  <li>
+                                      <i class="fa-solid fa-location-dot"></i>
+                                      <a href="#">Address: Jogendranagar, Sabgari-6450, Gurudaspur, Natore, Bangladesh<br>
+                                        Trade License No. 69141130786</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-12 col-md-12">
+        <img class="img-fluid" src="assets/images/exam-page/SSL.webp" alt="SSL Image" srcset="">
+      </div>
+      <br>
     </div>
-    <div class="col-sm-12 col-md-12">
-      <img class="img-fluid" src="assets/images/exam-page/SSL.webp" alt="SSL Image" srcset="">
+    <div class="copy-right-section">
+      <div class="container">
+        <p>Copyright © 2025 <span><a href="#">LiveEuducationBD</a></span> All rights reserved</p>
+      </div>
     </div>
-    <br>
-  </div>
-  <div class="copy-right-section">
-    <div class="container">
-      <p>Copyright © 2025 <span><a href="#">LiveEuducationBD</a></span> All rights reserved</p>
-    </div>
-  </div>
-</footer>
+  </footer>
 
-        <a href="https://wa.me/8801718778184" target="blank"><div class="objection btn"><i class="fa fa-message"></i> live Chat</div></a>
-        
-        <!-- JavaScript Libraries (footer) -->
-        <script src="assets/js/jquery-3.6.0.min.js"></script>
-        <script src="assets/js/bootstrap.bundle.min.js" defer></script>
-        <script src="assets/vendors/slick/slick.min.js" defer></script>
-        <script src="assets-old/js/owl.carousel.min.js" type="text/javascript" defer></script>
-        <script src="assets/js/main.js" defer></script>
+  <a href="https://wa.me/8801718778184" target="blank"><div class="objection btn"><i class="fab fa-whatsapp-square"></i> live Chat</div></a>
+  
+  <!-- JavaScript Libraries (footer) -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js" defer></script>
+  <script src="assets/vendors/slick/slick.min.js" defer></script>
+  <script src="assets-old/js/owl.carousel.min.js" type="text/javascript" defer></script>
+  <script src="assets/js/main.js" defer></script>
 
-        <!-- Toastr JS -->
-        <link rel="stylesheet" href="assets/ajax/libs/toastr.js/latest/toastr.min.css" />
-        <script src="assets/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+  <!-- Toastr JS -->
+  <link rel="stylesheet" href="assets/ajax/libs/toastr.js/latest/toastr.min.css" />
+  <script src="assets/ajax/libs/toastr.js/latest/toastr.min.js"></script>
 
-        <!-- Sweet Alert -->
-        <script async src="assets/npm/sweetalert2%4011.7.3/dist/sweetalert2.all.min.js"></script>
+  <!-- Sweet Alert -->
+  <script async src="assets/npm/sweetalert2%4011.7.3/dist/sweetalert2.all.min.js"></script>
 
-        <!-- Google Tag Manager (noscript) -->
-        <noscript>
-            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T642VTXN" height="0" width="0"
-                style="display:none;visibility:hidden"></iframe>
-        </noscript>
-        <!-- End Google Tag Manager (noscript) -->
-
-            <script src="assets/npm/bootstrap%405.3.3/dist/js/bootstrap.bundle.min.js" defer></script>
-            <script>
-            $(function() {
-                $('#popupModal').modal('show');
-            });
-        </script>
+  <!-- Google Tag Manager (noscript) -->
+  <!-- <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T642VTXN" height="0" width="0"
+          style="display:none;visibility:hidden"></iframe>
+  </noscript> -->
+  <!-- End Google Tag Manager (noscript) -->
+      <script>
+        $(function() {
+          $('#popupModal').modal('show');
+        });
+    </script>
     
    
     <script>

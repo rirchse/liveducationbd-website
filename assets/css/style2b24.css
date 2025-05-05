@@ -196,14 +196,16 @@ img {
 }
 
 #Header .search_button_area .input-group-text {
-    background-color: rgba(87, 87, 93, 0.32);
+    /* background-color: rgba(87, 87, 93, 0.32); */
     border-radius: 25px 0 0 25px;
+    border: 1px solid #ddd !important;
 }
 
 #Header .search_button_area .form-control {
     border-radius: 0 25px 25px 0;
-    background-color: rgba(87, 87, 93, 0.32);
+    /* background-color: rgba(87, 87, 93, 0.32); */
     margin-left: 0px;
+    border: 1px solid #ddd !important;
 
 }
 
@@ -264,9 +266,9 @@ img {
 
 #Header .navbar-collapse .dropdown-menu li a {
     color: #141414;
-    font-size: 16px;
-    font-weight: 600;
-    padding: 10px 16px;
+    font-size: 14px;
+    /* font-weight: 600; */
+    padding: 5px 16px;
 }
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
@@ -297,7 +299,7 @@ img {
 
 @media (max-width: 1399.98px) {
     #Header .search_button_area {
-        max-width: 182px;
+        /* max-width: 182px; */
     }
 
     #Header .search_button_area .input-group i {
@@ -2031,19 +2033,19 @@ body {
 .title-color-white{
   color:white;
 }
-#Our_service .title-area h2, #Student_review .title-area h2 {
+.our-service .title-area h2, #Student_review .title-area h2 {
     color: white;
 }
 
-#Our_service .title-area p {
+.our-service .title-area p {
     font-size: 18px;
 }
 
-#Our_service .title-area span {
+.our-service .title-area span {
     color: #033B3F;
 }
 
-#Our_service .home-services-area {
+.our-service .home-services-area {
     width: 60%;
     margin: 40px 21%;
 }
@@ -2058,7 +2060,7 @@ body {
     }
 }
 
-#Our_service .home-services-area .my-home-service {
+.our-service .home-services-area .my-home-service {
     display: flex;
     border: 3px solid #033B3F;
     background-color: #ffffff;
@@ -2066,30 +2068,30 @@ body {
     min-height: 150px;
 }
 
-#Our_service .home-services-area .my-home-service:hover {
+.our-service .home-services-area .my-home-service:hover {
     /* border: 1px solid rgb(28, 39, 65); */
     /* transform: scale(1.1); */
     box-shadow: 2px 6px 5px black;
 }
 
-#Our_service .home-services-area .my-home-service .my-home-service-icon img {
+.our-service .home-services-area .my-home-service .my-home-service-icon img {
     border-radius: 10px;
     width: 70px;
 }
 
-#Our_service .home-services-area .my-home-service {
+.our-service .home-services-area .my-home-service {
     padding: 7px;
 }
 
-#Our_service .home-services-area .my-home-service .my-home-service-icon {
+.our-service .home-services-area .my-home-service .my-home-service-icon {
     padding: 0px 0px 0px 0px;
 }
 
-#Our_service .home-services-area .my-home-service .my-home-service-content {
+.our-service .home-services-area .my-home-service .my-home-service-content {
     /* margin: auto; */
 }
 
-#Our_service .home-services-area .my-home-service .my-home-service-content h3 {
+.our-service .home-services-area .my-home-service .my-home-service-content h3 {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 2px;
@@ -2097,44 +2099,44 @@ body {
     padding: 10px 0px 0px 0px;
 }
 
-#Our_service .home-services-area .my-home-service .my-home-service-content p {
+.our-service .home-services-area .my-home-service .my-home-service-content p {
     font-size: 13px;
     margin-bottom: 0;
     color: white;
 }
 
-#Our_service .home-services-area .col-md-6 {
+.our-service .home-services-area .col-md-6 {
     padding-top: 24px;
 }
 
 @media (min-width: 768px) and (max-width: 1199.98px) {
-    #Our_service .home-services-area {
+    .our-service .home-services-area {
         width: 100%;
         margin: 40px auto;
     }
 
-    #Our_service .home-services-area .my-home-service .my-home-service-content h3 {
+    .our-service .home-services-area .my-home-service .my-home-service-content h3 {
         font-size: 20px;
     }
 }
 
 @media (max-width: 767.98px) {
-    #Our_service .home-services-area {
+    .our-service .home-services-area {
         width: 100%;
         margin: 40px auto;
     }
 }
 
 @media (max-width: 575.98px) {
-    #Our_service .title-area h2 {
+    .our-service .title-area h2 {
         font-size: 24px;
     }
 
-    #Our_service .title-area p {
+    .our-service .title-area p {
         font-size: 13px;
     }
 
-    #Our_service .home-services-area .my-home-service .my-home-service-content h3 {
+    .our-service .home-services-area .my-home-service .my-home-service-content h3 {
         font-size: 16px;
     }
 }

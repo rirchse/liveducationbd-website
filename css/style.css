@@ -175,7 +175,7 @@
 }
 
 #Home_main_banner {
-    background-image: url("frontend/assets/images/home-page/Background-banner-v5.webp");
+    /* background-image: url("frontend/assets/images/home-page/Background-banner-v5.webp"); */
     background-size: cover; /* Ensures the background covers the entire section */
     background-position: center; /* Centers the background */
     background-repeat: no-repeat; /* Prevents repetition */
@@ -188,7 +188,7 @@
 /* Adjustments for Tablets */
 @media (max-width: 1440px) {
     #Home_main_banner {
-        background-image: url("frontend/assets/images/home-page/Background-banner-v2.html");
+        /* background-image: url("frontend/assets/images/home-page/Background-banner-v2.html"); */
         background-size: cover; /* Maintains a good aspect ratio */
         min-height: 250px;
         padding: 20px;
@@ -622,7 +622,7 @@
 
     /* Hide the first section (Home_main_banner) */
     .Home_main_banner {
-        display: none;
+        /* display: none; */
     }
 
     /* Adjust the layout of course boxes in the first section for smaller screens */
@@ -646,12 +646,12 @@
 }
 
 .emergency-box {
-  flex: 1 1 calc(33.33% - 30px); /* 3 boxes per row on mobile */
-  max-width: calc(33.33% - 10px);
+  flex: 1 1 calc(44% - 30px); /* 3 boxes per row on mobile */
+  max-width: calc(44% - 0px);
   display: block;
   text-align: center;
   padding: 10px;
-  margin: 0px 0px 10px 0px;
+  margin: 0px 0px 15px 0px;
   /* background: #1CAB55; */
   border-radius: 10px;
   border: 3px solid #1CAB55;
