@@ -24,9 +24,9 @@
     <link rel="stylesheet" href="assets/vendors/slick/slick-theme.css"/>
     <link rel="stylesheet" href="assets-old/css/owl.carousel.min.css" />
     <!-- Custom CSS (With Cache Busting) -->
-        <link rel="stylesheet" href="assets/css/style2b24.css?v=3.6.25" />
+        <link rel="stylesheet" href="assets/css/style2b24.css?v=3.7.25" />
     <link rel="stylesheet" href="assets/css/responsive2b24.css?v=3523" />
-    <link rel="stylesheet" href="css/style.css?v=1.2.3" />
+    <link rel="stylesheet" href="css/style.css?v=1.3.3" />
 </head>
 <body>
   <header id="Header">
@@ -35,12 +35,23 @@
         <div class="mobile-menu d-flex justify-content-between align-items-center">
           <div class="main-logo">
             <a href="#">
-            <img src="img/logo.png" alt="Logo" width="65">
+              <img src="img/logo.png" alt="Logo" width="65">
             </a>
           </div>
           <div class="moblie-icon">
             <div class="nav-item login-button">
-              <a href="#" type="button" class="btn btn_warning">Login</a>
+              <!-- <a href="#" type="button" class="btn btn_warning">Login</a> -->
+               <div class="dropd/own">
+                <a href="#" class="dropdown-/toggle" id="Bell" role="button" data-bs-toggle="drop/down" aria-expanded="false" style="color: black;">
+                  <i class="fa fa-bell-o"></i>
+                </a>
+                <!-- <ul class="dropdown-menu" aria-labelledby="Bell">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">...</a>
+                  </li>
+                </ul> -->
+               </div>
+
             </div>
             <div>
               <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -51,7 +62,7 @@
         </div>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <!-- <div class="search_button">
+            <div class="search_button">
               <form class="search_button_area" action="#" method="POST">
                 <input type="hidden" name="_token" value="WlWD0OcHgoiFVuFIs7j0oumKvc7rASkRL84qLvMq" autocomplete="off">                            
                 <div class="input-group">
@@ -64,7 +75,7 @@
                     placeholder="Search courses" name="search" />
                 </div>
               </form>
-            </div> -->
+            </div>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page"
                 href="#">হোম</a>
@@ -78,9 +89,7 @@
               <a class="nav-link" href="#">পরীক্ষা</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-              সিলেবাস সমূহ
-              </a>
+              <a class="nav-link" href="#">সিলেবাস সমূহ</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">আমাদের সাফল্য</a>
@@ -109,9 +118,7 @@
                   <a class="nav-link" href="#">শিক্ষক মণ্ডলী</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">
-                    আমার কোর্স সমূহ
-                  </a>
+                  <a class="nav-link" href="#">আমার কোর্স সমূহ</a>
                 </li>
               </ul>
             </li>
@@ -131,74 +138,76 @@
           </ul>
           <div class="desk-top-login">
             <div class="nav-item login-button">
-              <a href="#" type="button" class="btn btn_warning">Login</a>
+              <a href="#" type="button" class="btn btn_warning btn-sm">Login</a>
             </div>
           </div>
         </div>
-      </div> <!-- /.container -->
-    </nav>
-    <nav class="navbar navbar-expand navbar-light d-block" style="background-color: #E6F1F3;">
-      <div class="container">
-        <div class="navbar-collapse">
-          <!-- Center-align the navigation items -->
-          <ul class="navbar-nav justify-content-center w-100">
-            <!-- Free Dropdown -->
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="freeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1CAB55;">
-                কোর্স সমূহ
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#" style="color: #1CAB55;">পরীক্ষা </a>
-            </li>
-            <!-- Exams Dropdown -->
-            <li class="nav-item dropdown exam">
-              <a class="nav-link dropdown-toggle" href="#" id="examDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1CAB55;">
-               সিলেবাস
-              </a>
-            </li>
-            <!-- More Dropdown -->
-            <li class="nav-item dropdown more">
-              <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1CAB55;">
-              আরও
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="moreDropdown">
-                <li>
-                  <a class="dropdown-item " href="#">
-                  <i class="fa-solid fa-newspaper"></i>&nbsp; আমার কোর্স
+        <nav class="navbar-2 navbar-expand navbar-light">
+          <div class="container">
+            <div class="navbar-collapse">
+              <!-- Center-align the navigation items -->
+              <ul class="navbar-nav justify-content-center w-100">
+                <!-- Free Dropdown -->
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-/toggle" href="#" id="freeDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1CAB55;">
+                    কোর্স সমূহ
                   </a>
                 </li>
-                <li>
-                  <a class="dropdown-item " href="#">
-                  <i class="fa-solid fa-book"></i>&nbsp; বই সমূহ
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #1CAB55;">পরীক্ষা </a>
+                </li>
+                <!-- Exams Dropdown -->
+                <li class="nav-item dropdown exam">
+                  <a class="nav-link dropdown-/toggle" href="#" id="examDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1CAB55;">
+                   সিলেবাস
                   </a>
                 </li>
-                <li>
-                  <a class="dropdown-item " href="#">
-                  <i class="fa-solid fa-briefcase"></i>&nbsp; নিয়োগ বিজ্ঞপ্তি
+                <!-- More Dropdown -->
+                <li class="nav-item dropdown more">
+                  <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: #1CAB55;">
+                  আরও
                   </a>
-                </li>
-                <li>
-                  <a class="dropdown-item " href="#">
-                  <i class="fa-solid fa-newspaper"></i>&nbsp; অভিযোগ দিন
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item " href="#">
-                  <i class="fa-solid fa-bell"></i>&nbsp; নোটিশ
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item " href="#">
-                  <i class="fa-solid fa-newspaper"></i>&nbsp; ব্লগ
-                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="moreDropdown">
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-newspaper"></i>&nbsp; আমার কোর্স
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-book"></i>&nbsp; বই সমূহ
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-briefcase"></i>&nbsp; নিয়োগ বিজ্ঞপ্তি
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-newspaper"></i>&nbsp; অভিযোগ দিন
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-bell"></i>&nbsp; নোটিশ
+                      </a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="#">
+                      <i class="fa-solid fa-newspaper"></i>&nbsp; ব্লগ
+                      </a>
+                    </li>
+                  </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+            </div>
+          </div>
+        </nav>
+        
+      </div> <!-- /.container -->
     </nav>
+    <br><br><br>
   </header>
 
     <!-- Navigation Bar for Small/Mobile Devices -->
@@ -206,7 +215,7 @@
     
     <!-- Preloader -->
     <section id="Home_add">
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-lg-2" style="padding: calc(var(--bs-gutter-x)* .0)!important;">
             <div class="home-1st-add-image">
@@ -224,7 +233,7 @@
           </div>
           <div class="col-lg-3" style="padding: 0 !important;">
             <div class="home-3rd-add-image dropdown">
-              <a href="#" class="dropdown-toggle" id="home3rdAddDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+              <a href="#" class="dropdown-/toggle" id="home3rdAddDropdown" data-bs-toggle="dropdown" aria-expanded="false">
               <img src="img/ad3.jpg" alt="" loading="lazy" srcset="">
               </a>
             </div>
@@ -253,8 +262,7 @@
                                 </div>
                                 <div class="package-exam-content" id="custom-package-exam-content">
                                   <div class="package-exam-title pt-3" id="custom-package-exam-title">
-                                      <h2><a href="#">৩৯ দিনের রেলওয়ে স্পেশাল ব্যাচ</a>
-                                      </h2>
+                                    <h2><a href="#">৩৯ দিনের রেলওয়ে স্পেশাল ব্যাচ</a></h2>
                                   </div>
                                   <div class="row gy-2 button-and-price">
                                       <div class="col-12">
@@ -298,8 +306,7 @@
                                         </div>
                                       </div>
                                       <div class="col-12">
-                                        <a href="#"
-                                            class="btn btn_warning text-white bg-brand w-100"> বিস্তারিত দেখুন <i class="fa-solid fa-arrow-right"></i></a>
+                                        <a href="#" class="btn btn_warning text-white bg-brand w-100"> বিস্তারিত দেখুন <i class="fa-solid fa-arrow-right"></i></a>
                                       </div>
                                   </div>
                                 </div>
@@ -309,13 +316,12 @@
                             <div class="exam-package-area">
                                 <div class="package-exam-image">
                                   <a href="#">
-                                  <img src="img/course2.png"
-                                      alt="" loading="lazy" srcset="" />
+                                  <img src="img/course2.png" alt="" loading="lazy" srcset="" />
                                   </a>
                                 </div>
                                 <div class="package-exam-content" id="custom-package-exam-content">
                                   <div class="package-exam-title pt-3" id="custom-package-exam-title">
-                                      <h2><a href="#">৩৯ দিনের রেলওয়ে স্পেশাল ব্যাচ</a>
+                                      <h2><a href="#">৩৯ দিনের রেলওয়ে স্পেশাল  ব্যাচ</a>
                                       </h2>
                                   </div>
                                   <div class="row gy-2 button-and-price">
@@ -627,7 +633,7 @@
                           <div class="home-feature-video">
                             <div class="ratio ratio-1x1"
                               style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                              <img class="img img-thumbnail-custom lazyload" src="img/signup.png" alt="Recent Job Solution Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
+                              <img class="img img-thumbnail-custom lazyload" src="img/video-icon.png" alt="Recent Job Solution Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
                               <!-- Transparent overlay to trigger the click event -->
                               <div onclick="showVideoModal('https://www.youtube.com/embed/lEw6fQwQXZM?autoplay=1')" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
                               </div>
@@ -638,7 +644,7 @@
                           <div class="home-feature-video">
                               <div class="ratio ratio-1x1"
                                 style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                                <img class="img img-thumbnail-custom lazyload" src="img/login.png" alt="Teachers Tips & Advice Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
+                                <img class="img img-thumbnail-custom lazyload" src="img/video-icon.png" alt="Teachers Tips & Advice Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
                                 <!-- Transparent overlay to trigger the click event -->
                                 <div onclick="showVideoModal('https://www.youtube.com/embed/lEw6fQwQXZM?autoplay=1')"
                                     style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
@@ -649,7 +655,7 @@
                         <div class="col-4">
                           <div class="home-feature-video">
                             <div class="ratio ratio-1x1" style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                              <img class="img img-thumbnail-custom lazyload" src="img/purchase.png" alt="APP Website Uses Rules Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
+                              <img class="img img-thumbnail-custom lazyload" src="img/video-icon.png" alt="APP Website Uses Rules Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
                               <!-- Transparent overlay to trigger the click event -->
                               <div onclick="showVideoModal('https://www.youtube.com/embed/lEw6fQwQXZM?autoplay=1')" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
                               </div>
@@ -659,7 +665,7 @@
                         <div class="col-4">
                           <div class="home-feature-video">
                             <div class="ratio ratio-1x1" style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                              <img class="img img-thumbnail-custom lazyload" src="img/purchase.png" alt="APP Website Uses Rules Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
+                              <img class="img img-thumbnail-custom lazyload" src="img/video-icon.png" alt="APP Website Uses Rules Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
                               <!-- Transparent overlay to trigger the click event -->
                               <div onclick="showVideoModal('https://www.youtube.com/embed/lEw6fQwQXZM?autoplay=1')" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
                               </div>
@@ -669,7 +675,7 @@
                         <div class="col-4">
                           <div class="home-feature-video">
                             <div class="ratio ratio-1x1" style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                              <img class="img img-thumbnail-custom lazyload" src="img/signup.png" alt="APP Website Uses Rules Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
+                              <img class="img img-thumbnail-custom lazyload" src="img/video-icon.png" alt="APP Website Uses Rules Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
                               <!-- Transparent overlay to trigger the click event -->
                               <div onclick="showVideoModal('https://www.youtube.com/embed/lEw6fQwQXZM?autoplay=1')" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
                               </div>
@@ -679,7 +685,7 @@
                         <div class="col-4">
                           <div class="home-feature-video">
                             <div class="ratio ratio-1x1" style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
-                              <img class="img img-thumbnail-custom lazyload" src="img/login.png" alt="APP Website Uses Rules Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
+                              <img class="img img-thumbnail-custom lazyload" src="img/video-icon.png" alt="APP Website Uses Rules Banner" style="position: absolute; top: 9%; left: 0; width: 100%; height: 76%;" srcset="">
                               <!-- Transparent overlay to trigger the click event -->
                               <div onclick="showVideoModal('https://www.youtube.com/embed/lEw6fQwQXZM?autoplay=1')" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; cursor: pointer;">
                               </div>
@@ -1932,10 +1938,11 @@
                           <div class="about-us">
                               <h3>About Us</h3>
                               <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Instructor</a></li>
-                                <li><a href="#">Refund Policy</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#">Our Success</a></li>
+                                <li><a href="#">Instructors</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Book Storage</a></li>
+                                <li><a href="#">Circular</a></li>
                               </ul>
                           </div>
                       </div>
@@ -1944,9 +1951,10 @@
                             <h3>Resources</h3>
                             <ul>
                               <li><a href="#">Courses</a></li>
-                              <li><a href="#">Our Blog</a></li>
+                              <li><a href="#">Exams</a></li>
                               <li><a href="#">Terms & Conditions</a></li>
                               <li><a href="#">Privacy Policy</a></li>
+                              <li><a href="#">Return Policy</a></li>
                             </ul>
                           </div>
                       </div>
@@ -1956,7 +1964,7 @@
                               <ul>
                                   <li>
                                     <i class="fa-regular fa-envelope"></i>
-                                    <a href="mailto:info@liveeuducationbd.com">info@liveeuducationbd.com</a>
+                                    <a href="mailto:liveeducationbd24@gmail.com">liveeducationbd24@gmail.com</a>
                                   </li>
                                   <li>
                                       <i class="fa-solid fa-phone"></i>
