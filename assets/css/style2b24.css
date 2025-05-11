@@ -1891,7 +1891,7 @@ body {
 
   #Home_add .home-1st-add-image,
   #Home_add .home-3rd-add-image {
-    /* display: none; */
+    display: none;
   }
 }
 
@@ -1902,7 +1902,7 @@ body {
 
 @media (max-width: 575.98px) {
   #Home_add .home-2nd-add-image img {
-    width: 97.70%;
+    /* width: 97.70%; */
     height: 50px;
     object-fit: cover;
     object-position: center;
