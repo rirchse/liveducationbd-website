@@ -5290,10 +5290,17 @@ body {
   transition: 0.5s;
   vertical-align: middle;
 }
+.objection a {
+  color: white;
+}
 
 .objection:hover {
   color: black;
-  background-color: #FDB714;
+  background-color: #1CAB55;
+}
+
+.objection a:hover {
+  color: black;
 }
 
 /* Bounce Animation */
